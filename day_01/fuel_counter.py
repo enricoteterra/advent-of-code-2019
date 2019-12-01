@@ -1,21 +1,7 @@
 from decimal import Decimal
-from enum import Enum
 from math import floor
-from quantity import Quantity
-
-
-class METRIC(Enum):
-    KG = "KG"
-
-
-class VOLUME(Enum):
-    LITER = "LITER"
-
-
-def Mass(mass): return Quantity(amount=Decimal(mass), unit=METRIC.KG)
-
-
-def Fuel(fuel): return Quantity(amount=Decimal(fuel), unit=VOLUME.LITER)
+from measurements.quantity import Quantity
+from measurements.fuel import Fuel
 
 
 def fuel_requirements_of(mass):

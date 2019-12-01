@@ -1,4 +1,6 @@
-from fuel_counter_upper import compound_fuel_requirements_of, Mass, Fuel
+from measurements.mass import Mass
+from measurements.fuel import Fuel
+from fuel_counter import compound_fuel_requirements_of
 
 file = open('data/module-mass.txt', 'r')
 

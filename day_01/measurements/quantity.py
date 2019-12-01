@@ -11,3 +11,6 @@ class Quantity(object):
 
     def __str__(self):
         return str(self.amount) + " " + str(self.unit.value)
+
+    def __eq__(self, other):
+        return self.unit is other.unit and self.amount == other.amount

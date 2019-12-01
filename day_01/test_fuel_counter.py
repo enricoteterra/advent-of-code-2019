@@ -1,5 +1,8 @@
 import unittest
-from fuel_counter_upper import fuel_requirements_of, compound_fuel_requirements_of, Mass, Fuel
+from fuel_counter import fuel_requirements_of, compound_fuel_requirements_of
+from measurements.quantity import Quantity
+from measurements.fuel import Fuel
+from measurements.mass import Mass
 
 
 class TestFuelCounterUpper(unittest.TestCase):
