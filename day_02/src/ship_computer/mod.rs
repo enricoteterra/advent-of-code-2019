@@ -1,32 +1,31 @@
-
-const NUMBER_OF_INTS_PER_OPERATION: usize = 4;
-
 pub struct ShipComputer {
     pub memory: Vec<usize>,
-    pub cursor: usize,
+    pub pointer: usize,
 }
 impl ShipComputer {
     pub fn new(maybe_initial_state: Option<Vec<usize>>) -> ShipComputer {
         ShipComputer { 
             memory: maybe_initial_state.unwrap_or(Vec::new()), 
-            cursor: 0
+            pointer: 0
         }
     }
     pub fn run_program(&mut self) {
-        while self.cursor < self.memory.len() / NUMBER_OF_INTS_PER_OPERATION {
-            let mem_loc_next_instruction = self.cursor * NUMBER_OF_INTS_PER_OPERATION;
-            let operation = self.memory[mem_loc_next_instruction];
-            let mem_loc_arg_a = self.memory[mem_loc_next_instruction + 1];
-            let mem_loc_arg_b = self.memory[mem_loc_next_instruction + 2];
-            let mem_loc_arg_c = self.memory[mem_loc_next_instruction + 3];
+        while self.pointer < self.memory.len() {
+            if self.pointer+4 > self.memory.len() { break; }
+
+            let address_of_next_instruction = self.pointer;
+            let operation = self.memory[address_of_next_instruction];
+            let address_of_arg_a = self.memory[address_of_next_instruction + 1];
+            let address_of_arg_b = self.memory[address_of_next_instruction + 2];
+            let address_of_arg_c = self.memory[address_of_next_instruction + 3];
             
             match operation {
-                1 => self.memory[mem_loc_arg_c] = self.memory[mem_loc_arg_a] + self.memory[mem_loc_arg_b],
-                2 => self.memory[mem_loc_arg_c] = self.memory[mem_loc_arg_a] * self.memory[mem_loc_arg_b],
+                1 => self.memory[address_of_arg_c] = self.memory[address_of_arg_a] + self.memory[address_of_arg_b],
+                2 => self.memory[address_of_arg_c] = self.memory[address_of_arg_a] * self.memory[address_of_arg_b],
                 99 => break,
                 _ => ()
             }
-            self.cursor += 1;
+            self.pointer += 4;
         }
     }
 }
@@ -40,15 +39,15 @@ mod tests {
     fn it_runs_program_from_memory() {
         let mut computer_without_operations = ShipComputer::new(None);
         computer_without_operations.run_program();
-        assert_eq!(0, computer_without_operations.cursor);
+        assert_eq!(0, computer_without_operations.pointer);
 
         let mut computer_with_some_operations = ShipComputer::new(Some([1,2,2,2].to_vec()));
         computer_with_some_operations.run_program();
-        assert_eq!(1, computer_with_some_operations.cursor);
+        assert_eq!(4, computer_with_some_operations.pointer);
 
         let mut computer_with_many_operations = ShipComputer::new(Some((1.. 98).collect::<Vec<usize>>()));
         computer_with_many_operations.run_program();
-        assert_eq!(24, computer_with_many_operations.cursor);
+        assert_eq!(96, computer_with_many_operations.pointer);
     }
 
     #[test]
