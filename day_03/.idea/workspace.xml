@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28d517df-dd8d-4b0a-8d36-5e2036fdc357" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_api_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_junit_jupiter_junit_jupiter_engine_5_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Wire" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/ClosestX.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/Point.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/ShortestPathX.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/Wire.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/app.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/ClosestXTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/PointTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/ShortestPathXTest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/WireTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day_02/.gitignore" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,56 +15,7 @@
     <favorites_list name="day_03" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/ShortestPathX.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/ShortestPathXTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding>
-                <element signature="e#43#118#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/app.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/ClosestXTest.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/ClosestX.kt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="16" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,23 +79,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="day_03" type="58d84e3e:PackageViewProjectNode" />
-              <item name="day_03" type="616d4139:PackageViewModuleNode" />
-            </path>
-            <path>
-              <item name="day_03" type="58d84e3e:PackageViewProjectNode" />
-              <item name="day_03" type="616d4139:PackageViewModuleNode" />
-              <item name="com.eteterra.advent_of_code.day03" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -186,6 +107,23 @@
               <item name="day_03" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="day03" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="day_03" type="58d84e3e:PackageViewProjectNode" />
+              <item name="day_03" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="day_03" type="58d84e3e:PackageViewProjectNode" />
+              <item name="day_03" type="616d4139:PackageViewModuleNode" />
+              <item name="com.eteterra.advent_of_code.day03" type="1f31426a:PackageElementNode" />
             </path>
           </expand>
           <select />
@@ -335,6 +273,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575451620465</updated>
       <workItem from="1575451621902" duration="63313000" />
+      <workItem from="1577308237970" duration="15000" />
     </task>
     <servers />
   </component>
@@ -371,18 +310,17 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63313000" />
+    <option name="totallyTimeSpent" value="63328000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Capture Tool" order="2" />
-      <window_info id="Favorites" order="3" sideWeight="0.19251336" side_tool="true" visible="true" weight="0.24847375" />
+      <window_info id="Favorites" order="3" sideWeight="0.19251336" side_tool="true" weight="0.24847375" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.80748665" visible="true" weight="0.24847375" />
+      <window_info content_ui="combo" id="Project" order="5" sideWeight="0.80748665" visible="true" weight="0.25152627" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" />
@@ -488,16 +426,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/WireTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="8" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#121#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/WireTest.kt" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/junit/platform/junit-platform-commons/1.5.2/junit-platform-commons-1.5.2.jar!/org/junit/platform/commons/util/ReflectionUtils.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
@@ -519,38 +448,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/PointTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="13" column="44" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="13" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/Point.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="64" column="78" selection-start-line="64" selection-start-column="33" selection-end-line="64" selection-end-column="78" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-sources.jar!/kotlin/Range.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="362">
           <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/WireTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/Wire.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -589,41 +490,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/ClosestX.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/ShortestPathX.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="16" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/ClosestXTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/app.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="336">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/ShortestPathXTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="23" column="9" lean-forward="true" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        <state relative-caret-position="462">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
           <folding>
             <element signature="e#43#118#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/ShortestPathX.kt">
+    <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/app.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="43" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/com/eteterra/advent_of_code/day03/ClosestXTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/eteterra/advent_of_code/day03/ClosestX.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="16" selection-start-line="3" selection-start-column="4" selection-end-line="7" selection-end-column="16" />
         </state>
       </provider>
     </entry>
